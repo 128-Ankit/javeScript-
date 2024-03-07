@@ -9,6 +9,16 @@
 // }
 let age = 18;
 
-let accessAllowed = (age > 18) ? true : false;
+let accessAllowed = (age > 18) ? true : false; // ternary operator will  return boolean value based on the condition, return true if age > 18 otherwise returns false
 
 console.log(`Access allowed: ${accessAllowed}`)
+
+
+let age2 = prompt('age?', 18);
+
+let message = (age < 3) ? 'Hi, baby!' :
+  (age < 18) ? 'Hello!' :
+  (age < 100) ? 'Greetings!' :
+  'What an unusual age!';
+
+alert( message );
